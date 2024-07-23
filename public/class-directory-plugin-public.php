@@ -19,6 +19,12 @@ class Directory_Plugin_Public {
     // Stylesheet for public-facing side of the plugin
 	public function enqueue_styles() {
         wp_enqueue_style( $this->plugin_name . '-public', plugin_dir_url( __FILE__ ) . 'css/directory-plugin-public.css', array(), $this->version, 'all' );
+        wp_enqueue_style(
+            'google-fonts',
+            'https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap',
+            array(),
+            null
+        );
     }
     // Javasript for public-facing side of the plugin
 	public function enqueue_scripts() {

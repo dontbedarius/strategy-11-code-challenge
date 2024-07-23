@@ -1,5 +1,8 @@
 /* Public CSS */
 
+
+/* Directory Plugin CSS */
+
 .directory-plugin-container {
     display: flex !important;
     flex-direction: column !important;
@@ -35,4 +38,162 @@
     tbody {
         text-align: left;
     }
+}
+
+
+/* Front End Challenge CSS */
+
+.home_nav {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+.nav_container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 78rem;
+    justify-content: space-between;
+    height: 78px;
+    align-items: center;
+}
+
+.biz_dir_logo,
+.biz_dir_btn {
+    max-width: 200px;
+    width: 98%;
+}
+
+.home_background {
+    position: relative;
+    height: 600px;
+    background-size: cover;
+    background-position: right;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+}
+
+.home_hero {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 78rem;
+    margin: 0 auto;
+}
+
+.home_heading {
+    max-width: 500px;
+    h1 {
+        font-size: 52px;
+        line-height: 1.3;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+}
+
+.home_form-container {
+    width: 100%;
+    text-transform: uppercase;
+    padding: 24px 0;
+}
+
+.text-field,
+.dropdown,
+.search-button {
+    margin: -3px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.text-field,
+.dropdown {
+    width: 40%;
+}
+
+.search-button {
+    background-color: #6786BC;
+    color: white;
+    width: 20%;
+}
+
+.dropdown {
+    border-right: 20px solid white;
+}
+
+.home_grid-containers {
+    width: 80%;
+    max-width: 78rem;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    gap: 15px;
+    padding: 15px;
+    height: 225px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 15px;
+    height: 225px;
+}
+
+.grid-item {
+    border-radius: 15px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+}
+
+.fancy-img,
+.tacos-img,
+.candle-img {
+    background-position: center;
+}
+
+.item-heading {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding: 18px;
+    justify-content: flex-end;
+    color: white;
+}
+
+.item-title {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.item-text {
+    font-size: 12px;
+}
+
+.item-icon {
+    width: 30px;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: #6786BC;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.add-title {
+    width: 60%;
+    text-align: center;
+    padding-top: 10px;
 }
