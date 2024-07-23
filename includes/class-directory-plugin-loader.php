@@ -10,20 +10,20 @@ class Directory_Plugin_Loader{
 
     // Initialize the collections used to maintain the actions
     public function __construct() {
-		$this->actions = array();
-	}
+		  $this->actions = array();
+	  }
 
-	public function add_action( $hook, $component, $callback) {
-		$this->actions[] = array(
-            'hook' => $hook,
-            'component' => $component,
-            'callback' => $callback,
-        );
-	}
+    public function add_action( $hook, $component, $callback) {
+      $this->actions[] = array(
+          'hook' => $hook,
+          'component' => $component,
+          'callback' => $callback,
+      );
+    }
 
     public function run() {
-		foreach ( $this->actions as $action ) {
-			add_action( $action['hook'], array( $action['component'], $action['callback'] ));
-		}
+      foreach ( $this->actions as $action ) {
+        add_action( $action['hook'], array( $action['component'], $action['callback'] ));
+      }
     }
 }

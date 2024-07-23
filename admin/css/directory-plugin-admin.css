@@ -1,1 +1,33 @@
-/* Public CSS */
+/* Admin CSS */
+
+.header-logo img {
+    width: 300px !important;
+    padding: 16px 2px;
+}
+
+h1 {
+    color: #333;
+    font-size: 32px !important;
+}
+
+.button-primary {
+    margin: 10px 0 !important;
+}
+
+.admin-table {
+    padding: 18px 24px;
+}
+
+#api-response {
+    background-color: white !important;
+    border-radius: 25px !important;
+}
+
+#api-response table {
+    padding: 18px 24px;
+    width: 100%;
+    thead {
+        font-size: 18px;
+        text-align: left;
+    }
+}
