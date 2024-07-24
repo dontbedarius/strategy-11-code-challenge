@@ -11,7 +11,7 @@
     <div class="home_nav">
         <div class="nav_container">
             <div class="biz_dir_logo">
-                <img src="<?php echo plugin_dir_url( __FILE__ ); ?>img/BD_logo.png" alt="bd_logo">
+                <img src="<?php echo plugin_dir_url( __FILE__ ); ?>img/bd_logo.png" alt="bd_logo">
             </div>
             <div class="biz_dir_btn">
                 <img src="<?php echo plugin_dir_url( __FILE__ ); ?>img/business_directory.png" alt="bd_btn">
